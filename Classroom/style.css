@@ -1,0 +1,23 @@
+body{
+    background-color: #9DD1F1;
+}
+
+h1{
+    color: #031927;
+    text-align: center;
+}
+p{
+    color: #031927;
+    width: 70%;
+}
+button{
+    color:#031927;
+    background-color: rgb(227, 249, 249);
+}
+#box{
+    background-color: #000000;
+    color: white
+}
+.Myclass{
+    color:crimson
+}
