@@ -1,23 +1,28 @@
 body{
     background-color: #9DD1F1;
 }
+.Myclass{
+    color:crimson;
+    font-weight: 700;
+    
+}
 
 h1{
     color: #031927;
     text-align: center;
+    /* text-decoration: red line-through; */
 }
 p{
     color: #031927;
-    width: 70%;
+    
+    text-align: center;
+    text-decoration:white solid underline ;
 }
 button{
     color:#031927;
     background-color: rgb(227, 249, 249);
 }
 #box{
-    background-color: #000000;
-    color: white
-}
-.Myclass{
-    color:crimson
+
+    color: rgb(9, 0, 0)
 }
