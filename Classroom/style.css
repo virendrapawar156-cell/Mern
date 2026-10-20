@@ -1,4 +1,7 @@
-body{
+*{
+    font-family:'Times New Roman', Times, serif ;
+}
+    body{
     background-color: #9DD1F1;
 }
 .Myclass{
@@ -22,7 +25,19 @@ button{
     color:#031927;
     background-color: rgb(227, 249, 249);
 }
-#box{
+#First{
 
-    color: rgb(9, 0, 0)
+    font-size: 25px;
+}
+#second{
+    font-size: 10px;
+}
+#para1{
+    font-size: 22px  ;
+    line-height: 30px;
+
+}
+#para2{
+     font-size: 12px;
+     line-height: 50px;
 }
