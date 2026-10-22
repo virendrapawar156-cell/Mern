@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    color:#D1DAEA;
+    background-color:#0A111E;
+}
+.para{
+    background-color:#657792;
+    border:2px solid white;
+    
+    
+
+}
+.intro{
+    text-align: center;
+    color: #D1DAEA;
+    box-shadow: #D1DAEA;
+   
+
+}
+#about{
+    width : 50%;
+}
+nav{
+    background-color: #AFC1DD;
+    width: 80px;
+}
+#abouttt{
+    margin-top: 30px;
+}
+#aboutt:hover{
+    background-color: #AFC1DD;
+    width:20%;
+}
