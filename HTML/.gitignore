@@ -1,14 +1,14 @@
-
-# Ignore all images
+# Images
+*.png
 *.jpg
 *.jpeg
-*.png
 *.gif
 *.webp
-*.svg
 
-# Ignore all videos
+# Videos
 *.mp4
 *.mov
 *.avi
-*.mkv
+
+# Dependencies
+node_modules/
