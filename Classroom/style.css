@@ -215,7 +215,7 @@ a{
 
 }
 */
-*{
+/* {
     margin: 0px;
     padding: 0px;
     color:white;
@@ -223,6 +223,8 @@ a{
 #navbar{
     height:60px;
     background-color: #0f1111;
+    position: sticky;
+    top:0;
   
 }
 #logo{
@@ -244,4 +246,35 @@ a{
 }
 #foot{
     margin-top: 700px;
+}
+
+
+.Content{
+    color:#0f1111;
+    height:100px;
+    width:100px;
+    border:2px dotted black;
+    display:inline-block;
+    padding:25px 25px 25px 25px;
+    margin: 25px auto;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+} */
+
+.box1{
+    height:300px;
+    width: 300px;
+    background-color: chartreuse;
+}
+.box2{
+    height:300px;
+    width:78%;
+    background-color: cyan;
+}
+.box3{
+    background-color: brown;
+    height: 300px;
+    width:20%
 }
