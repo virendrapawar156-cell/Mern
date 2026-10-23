@@ -1,35 +1,24 @@
 *{
-    margin:0;
-    padding:0;
-    color:#D1DAEA;
-    background-color:#0A111E;
-}
-.para{
-    background-color:#657792;
-    border:2px solid white;
-    
-    
+    margin:0%;
+    padding:0%;
+    background-color: black;
+    color: aliceblue;
 
 }
 .intro{
+    height:80px;
+    color: aliceblue;
+    background-color:cornflowerblue ;
     text-align: center;
-    color: #D1DAEA;
-    box-shadow: #D1DAEA;
-   
+    padding-top: 40px;
+    position: fixed;
 
+ top: 0%;
 }
-#about{
-    width : 100vw;
+.intro:hover{
+    text-decoration: underline;
+    color: #008000;
 }
-nav{
-    background-color: #AFC1DD;
-    width: 80px;
-}
-#abouttt{
-    margin-top: 30px;
-    width:100vw;
-}
-#aboutt:hover{
-    background-color: #AFC1DD;
-    width:20%;
+#about.hover{
+    transform: rotateX('33');
 }
