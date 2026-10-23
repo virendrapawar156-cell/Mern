@@ -1,0 +1,40 @@
+div{
+    background-color: aquamarine;
+    border: 2px solid black;
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+#box1{
+    position: fixed;
+    top:0%;
+    left: 0%;
+    z-index: -1;
+    border-radius: 10%;
+    width: 100vw;
+}
+#box2{
+    position: sticky;
+    top:50px;
+    z-index: -1;
+}
+#box4{
+    position: sticky;
+    top:60px;
+    z-index: 1;
+
+}
+#box3{
+    position:sticky;
+    top:70px;
+    z-index: 1;
+}
+
+#box3:hover{
+    background-color: greenyellow;
+
+}

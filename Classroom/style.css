@@ -267,11 +267,17 @@ footer{
     height:300px;
     width: 300px;
     background-color: chartreuse;
+    font-size: 20px;
 }
 .box2{
-    height:300px;
-    width:78%;
+    height:200px;
+    width:60%;
     background-color: cyan;
+    margin:10% 10% 10% 10%;
+    font-size: 0.5em;
+    width:10vw;
+    height:100vh;
+
 }
 /* .box3{
     background-color: brown;

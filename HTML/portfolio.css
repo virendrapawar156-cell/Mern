@@ -19,7 +19,7 @@
 
 }
 #about{
-    width : 50%;
+    width : 100vw;
 }
 nav{
     background-color: #AFC1DD;
@@ -27,6 +27,7 @@ nav{
 }
 #abouttt{
     margin-top: 30px;
+    width:100vw;
 }
 #aboutt:hover{
     background-color: #AFC1DD;
