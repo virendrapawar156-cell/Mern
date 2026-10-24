@@ -1,0 +1,78 @@
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+    color: white;
+    /* row-gap: 30px; */
+    
+  
+}
+#container{
+    width: 1000px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+   /* flex-direction: row-reverse; */
+   /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* justify-content: end; */
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between;
+    justify-content: stretch;
+    justify-content:last baseline; */
+    /* flex-wrap: wrap;  */
+    
+    /* flex-wrap: wrap-reverse; */
+/*     
+    align-items: center; */
+    /* align-items: end;
+    align-items: first baseline;
+    align-items: stretch; */
+    /* align-content: flex-end;
+    align-items: center;
+    align-content: flex-start; */
+    align-content: center;
+    
+}
+#box1{
+    /* background-color: brown; */
+  background-color: #3feb25;
+  border: 1px solid black;
+   
+}
+#box2{
+    /* background-color: rgb(42, 165, 104); */
+  background-color: #441c0d;
+   border: 1px solid black;
+   height: 150px;
+   /* align-self: flex-end;    */
+   flex-grow: 1;
+}
+#box2:hover{
+    background-color: rgb(234, 134, 3);
+    text-transform:uppercase;
+}
+#box3{
+    /* background-color: rgb(46, 42, 165); */
+    border: 1px solid black ;
+   background-color: #5a5a07;
+   /* align-self: center; */
+}
+#box4{
+    /* background-color: rgb(165, 42, 116); */
+    border: 1px solid rgb(2, 2, 2) ;
+    background-color: #2563EB;
+    
+}
+#box5{
+    /* background-color: rgb(66, 191, 228); */
+    border: 1px solid black ;
+    background-color: #df0404;
+    /* align-self: flex-end; */
+   
+}

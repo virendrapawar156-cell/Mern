@@ -1,24 +1,9 @@
-*{
-    margin:0%;
-    padding:0%;
+#Navbar{
     background-color: black;
-    color: aliceblue;
-
+    color: white;
+    display: flex;
+    text-decoration: none;
 }
-.intro{
-    height:80px;
-    color: aliceblue;
-    background-color:cornflowerblue ;
-    text-align: center;
-    padding-top: 40px;
-    position: fixed;
-
- top: 0%;
-}
-.intro:hover{
-    text-decoration: underline;
-    color: #008000;
-}
-#about.hover{
-    transform: rotateX('33');
+a{
+    list-style-type: none;
 }
