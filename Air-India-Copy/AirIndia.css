@@ -1,8 +1,65 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #B20D24;
+}
+body{
+    background-color: #F5F1E9;
+}
 #Air{
     display: flex;
-    width: 100vw;
     flex-direction: row;
-    justify-content:space-evenly ;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: bisque;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    border: 1px solid #D4AF66;
+    border-radius: 10%;
+}
+
+h1{
+    margin: 0;
+    color: red;
+    white-space: nowrap;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #252525;
+    transition: 0.3;
+}
+.nav-link:hover{
+    color: #B20D24;
+
+}
+
+#journey{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    min-height: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #781525;
+    flex-direction: column;
+}
+#journey > div{
+    flex: 1;
+    min-height: 0;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
