@@ -1,9 +1,148 @@
-#Navbar{
+body{
     background-color: black;
-    color: white;
+    color: azure;
+     width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Container{
+    height: 20px;
+    width: 100vw;
+    background-color:#111111;
     display: flex;
-    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top:0px;   
+    
 }
 a{
-    list-style-type: none;
+    text-decoration: none;
+    
+    color: #D4AF37;
+    
+}
+h1 {
+    background: linear-gradient(
+        90deg,
+        #8C6A10,
+        #D4AF37,
+        #F5D76E
+    ); -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: 100vw;
+    height:40px;
+    margin-top: 0%;
+    border:2px solid #D4AF37;
+    padding: 10px;
+}
+a:hover{
+    color: #F5D76E;
+}
+
+h2, p
+    {
+    color: #B3B3B3;
+}
+
+#skills{
+   width: 100vw;
+   height: 30px;
+   display: inline;
+}
+#skill-container{
+    height: 300px;
+    display: inline;
+    width: 100vw;
+}
+.skill-box {
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #D4AF37;
+    padding: 10px;
+    border-radius: 10px;
+}
+h3 {
+    color: #D4AF37;
+}
+ h3:hover {
+    color: #F5D76E;
+}
+h4 {
+    color: #BFA15F;
+}
+
+.PR {
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #D4AF37;
+    padding: 10px;
+    border-radius: 10px;
+}
+#Projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#Media {
+    display: flex;
+    gap: 20px;
+}
+
+.M a {
+    display: inline-block;
+    color: #D4AF37;
+    text-decoration: none;
+    border: 1px solid #D4AF37;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.M a:hover {
+    color: #0A0A0A;
+    background-color: #D4AF37;
+}
+
+#Contact-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.C a {
+    display: inline-block;
+    color: #D4AF37;
+    text-decoration: none;
+    border: 1px solid #D4AF37;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.C a:hover {
+    color: #0A0A0A;
+    background-color: #D4AF37;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1 a {
+    color: #D4AF37;
+    font-size: 25px;
+    margin-left: 12px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+h1 a:hover {
+    color: #F5D76E;
+    width: 100%;
+    margin:0%;
 }
