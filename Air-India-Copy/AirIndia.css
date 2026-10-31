@@ -1,4 +1,4 @@
-header{
+/* header{
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -96,4 +96,162 @@ h1{
 .search-btn:hover {
     background-color: #781525;
 }
+ */
 
+body {
+    background: linear-gradient(135deg, #10172A, #24204A, #321B45);
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #E0C3FC;
+    padding: 15px;
+    border-bottom: 2px solid #B18CFF;
+    margin: 0;
+}
+
+/* Navigation */
+
+#Container {
+    height: 40px;
+    width: 100%;
+    background-color: #19172D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #D9B8FF;
+}
+
+a:hover {
+    color: #FFB6E6;
+}
+
+/* Headings and paragraphs */
+
+h2 {
+    color: #D9B8FF;
+    margin-left: 15px;
+}
+
+p {
+    color: #D5D1E5;
+    padding: 10px;
+}
+
+/* Skills */
+
+#skills {
+    width: 100%;
+}
+
+#skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.skill-box {
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #B18CFF;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(25, 23, 45, 0.7);
+}
+
+h3 {
+    color: #D9B8FF;
+}
+
+h3:hover {
+    color: #FFB6E6;
+}
+
+h4 {
+    color: #C49BE8;
+}
+
+
+#Projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+.PR {
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #B18CFF;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(25, 23, 45, 0.7);
+}
+
+#Media {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.M a {
+    display: inline-block;
+    border: 1px solid #B18CFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.M a:hover {
+    background-color: #B18CFF;
+    color: #10172A;
+}
+
+
+
+#Contact-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.C a {
+    display: inline-block;
+    border: 1px solid #B18CFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.C a:hover {
+    background-color: #B18CFF;
+    color: #10172A;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+h1 a {
+    color: #D9B8FF;
+    font-size: 25px;
+    margin-left: 10px;
+}
